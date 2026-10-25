@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a4d76" />
+    <meta name="description" content="عبدبدب مساحة موسيقية هادئة بين السماء والورد" />
+    <title>عبدبدب</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="topbar">
+      <a class="wordmark" href="#top" aria-label="عبدبدب">
+        <span class="wordmark-mark"><i></i><i></i><i></i></span>
+        <span>عبدبدب</span>
+        <span class="wordmark-emoji">🙂</span>
+      </a>
+      <div class="topbar-note">مساحة من عبدبدب</div>
+      <a class="topbar-link" href="#player">اسمعها</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-image hero-image-base" aria-hidden="true"></div>
+        <div class="hero-image hero-image-slice hero-image-slice-one" aria-hidden="true"></div>
+        <div class="hero-image hero-image-slice hero-image-slice-two" aria-hidden="true"></div>
+        <div class="hero-image hero-image-slice hero-image-slice-three" aria-hidden="true"></div>
+        <div class="hero-sky-wash" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span>جلسة رقم واحد</p>
+          <h1 id="hero-title">عبدبدب</h1>
+          <p class="hero-subtitle">شغّل شي هادي وخلي الباقي يمشي لحاله</p>
+          <a class="round-arrow" href="#player" aria-label="انزل للمشغل"><span>↓</span></a>
+        </div>
+        <div class="hero-bottomline">
+          <span>صوت من بعيد</span>
+          <span class="hero-line"></span>
+          <span>الجزء الأول</span>
+        </div>
+      </section>
+
+      <section class="intro section-shell" aria-labelledby="intro-title">
+        <div class="intro-index">01</div>
+        <div class="intro-copy">
+          <p class="section-kicker">بين اللون والصوت</p>
+          <h2 id="intro-title">لما يكون المكان هادي<br /><em>كل نغمة بتبين</em></h2>
+          <p class="intro-text">هنا في مساحة صغيرة للصوت والضو والورد كل شي مرتب على مهله عشان تضل اللحظة خفيفة</p>
+        </div>
+        <div class="intro-orbit" aria-hidden="true">
+          <span class="orbit-center">عبدبدب</span>
+          <span class="orbit-label orbit-label-top">سماء</span>
+          <span class="orbit-label orbit-label-right">ورد</span>
+          <span class="orbit-label orbit-label-bottom">صوت</span>
+          <span class="orbit-label orbit-label-left">هدوء</span>
+        </div>
+      </section>
+
+      <section class="player-section section-shell" id="player" aria-labelledby="player-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">المقطع الحالي</p>
+            <h2 id="player-title">خلي الصوت يكمل الصورة</h2>
+          </div>
+          <div class="spotify-lockup" aria-label="سبوتيفاي">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8a10.2 10.2 0 1 0 0 20.4 10.2 10.2 0 0 0 0-20.4Zm4.68 14.63a.75.75 0 0 1-1.03.25c-2.82-1.72-6.37-2.1-10.55-1.15a.75.75 0 1 1-.33-1.46c4.58-1.04 8.5-.8 11.66 1.13.35.21.46.67.25 1.03Zm1.38-3.06a.94.94 0 0 1-1.29.31c-3.23-1.98-8.16-2.55-11.98-1.4a.94.94 0 1 1-.54-1.79c4.37-1.33 9.8-.69 13.5 1.58.44.27.58.85.31 1.3Zm.12-3.19C14.3 7.95 8.4 7.75 4.92 8.8a1.13 1.13 0 1 1-.65-2.17c4-1.2 10.66-.97 14.68 1.42a1.13 1.13 0 0 1-.77 2.13Z" /></svg>
+            <span>سبوتيفاي</span>
+          </div>
+        </div>
+
+        <div class="player-grid">
+          <div class="player-card">
+            <div class="player-art">
+              <img src="public/assets/tree.jpg" alt="الشجرة المزهرة" />
+              <div class="art-fade"></div>
+              <div class="art-text">هدوء<br />على مهل</div>
+              <div class="playing-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="track-meta">
+              <div>
+                <p class="track-title">تقوى الهجر</p>
+                <p class="track-artist">خالد عبد الرحمن</p>
+              </div>
+              <span class="track-count">11:54</span>
+            </div>
+            <div class="player-controls">
+              <button class="icon-button" type="button" aria-label="السابق">↶</button>
+              <button class="play-button" type="button" id="playButton" aria-label="تشغيل الأغنية"><span class="play-icon">▶</span></button>
+              <button class="icon-button" type="button" aria-label="التالي">↷</button>
+            </div>
+            <div class="progress-track"><span id="progressBar"></span></div>
+            <div class="progress-times"><span id="elapsed">00:00</span><span>11:54</span></div>
+            <a class="youtube-link" href="https://www.youtube.com/watch?v=CBw0oSWrBd0" target="_blank" rel="noreferrer">افتحها على يوتيوب <span>↗</span></a>
+          </div>
+
+          <div class="youtube-card">
+            <div class="youtube-heading"><span class="youtube-pulse"></span><span>من يوتيوب</span></div>
+            <div class="video-frame">
+              <iframe id="youtubePlayer" title="خالد عبد الرحمن تقوى الهجر" src="https://www.youtube-nocookie.com/embed/CBw0oSWrBd0?enablejsapi=1&rel=0" loading="lazy" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+              <div class="video-caption">اختار النسخة اللي على مزاجك</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="playlist-section section-shell" aria-labelledby="playlist-title">
+        <div class="playlist-intro">
+          <p class="section-kicker">قائمة عبدبدب</p>
+          <h2 id="playlist-title">ثلاث نغمات<br /><em>لليل أطول</em></h2>
+          <p>كل اختيار إله لون خاص وكل لون إله وقته</p>
+        </div>
+        <div class="playlist-list" role="list">
+          <button class="song-row active" type="button" role="listitem" data-song="تقوى الهجر" data-artist="خالد عبد الرحمن">
+            <span class="song-no">01</span><span class="song-cover cover-one"></span><span class="song-name">تقوى الهجر<small>خالد عبد الرحمن</small></span><span class="song-duration">11:54</span><span class="song-arrow">↗</span>
+          </button>
+          <button class="song-row" type="button" role="listitem" data-song="خذني معك" data-artist="خالد عبد الرحمن">
+            <span class="song-no">02</span><span class="song-cover cover-two"></span><span class="song-name">خذني معك<small>خالد عبد الرحمن</small></span><span class="song-duration">05:08</span><span class="song-arrow">↗</span>
+          </button>
+          <button class="song-row" type="button" role="listitem" data-song="صدقيني" data-artist="خالد عبد الرحمن">
+            <span class="song-no">03</span><span class="song-cover cover-three"></span><span class="song-name">صدقيني<small>خالد عبد الرحمن</small></span><span class="song-duration">06:01</span><span class="song-arrow">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="closing section-shell">
+        <div class="closing-orb" aria-hidden="true"></div>
+        <p class="section-kicker">نهاية هادية</p>
+        <h2>اترك الصوت شغال<br /><em>وخلي النهار يكمّل</em></h2>
+        <div class="closing-signature">عبدبدب <span>🙂</span></div>
+      </section>
+    </main>
+
+    <footer class="footer section-shell"><span>عبدبدب</span><span>مساحة صوتية هادية</span><span>© 2026</span></footer>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
